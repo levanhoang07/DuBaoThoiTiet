@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);
+}
+#Weather {
+    background: url(../image/bg.png) no-repeat center / cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app {
+    height: 90vh;
+    width: 90%;
+    background-color: #3333339a;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 5px 5px 5px #333;
+}
+
+header {
+    padding-top: 50px;
+}
+
+
+#Time,
+#Date {
+    color: #ddd;
+}
+
+.place_title {
+    text-shadow: 3px 3px 5px #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tem_number,
+.Tem_NUMBER {
+    font-size: 130px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.weather_state {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#Search input:focus {
+    outline: none !important;
+}
+
+#Search input::placeholder {
+    color: #ddd;
+}

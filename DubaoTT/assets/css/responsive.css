@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    header {
+        padding-top: 10px;
+    }
+    .Weather_Title {
+        text-align: center;
+    }
+    .place_title {
+        font-size: 30px;
+    }
+    .Tem_NUMBER,
+    .tem_number {
+        font-size: 60px;
+    }
+    .temmm {
+        margin-top: 20px;
+    }
+    .temmm h5 {
+        font-size: 18px;
+    }
+}
